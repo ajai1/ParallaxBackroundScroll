@@ -1,0 +1,122 @@
+body, html{
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0;
+    height: 100%;
+    line-height: 1.8em;
+    color: #666;
+}
+
+footer{
+    float: right;
+    opacity: 0.8;
+}
+
+.pimg1, .pimg2, .pimg3{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pimg1{
+    min-height: 100%;
+    position: relative;
+    background-image: url('/images/architectural-design-architecture-buildings-242124.jpg');
+    opacity: 0.70;
+}
+
+.pimg2{
+    min-height: 400px;
+    position: relative;
+    background-image: url('/images/bokeh-building-city-17668.jpg');
+    opacity: 0.70;
+}
+
+.pimg3{
+    min-height: 400px;
+    position: relative;
+    background-image: url('/images/aerial-view-architecture-bridges-681335.jpg');
+    opacity: 0.70;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: rgb(233, 233, 233);
+    color: #282e34
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: rgb(233, 233, 233);
+}
+
+.border, .borderPara{
+    background-color: #000000;
+    color: rgb(233, 233, 233);
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+.to-site{
+    background-color: #494949;
+}
+
+.to-site a{
+    text-decoration: none;
+    color:  rgb(233, 233, 233);
+    
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.border{
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.borderPara{
+    font-size: .8em;
+}
+
+.para{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media(max-width:568px){
+    .border{
+        font-size: 0.6em;
+        letter-spacing: 10px;
+    }
+    .borderPara{
+        font-size: .4em;
+        letter-spacing: 10px;
+    }
+    .section{
+        padding: 25px 40px;
+    }
+    body{
+        line-height: 1.5em;
+        font-weight: 200px;
+    }
+    .last-title .border{
+        font-size: .4em;
+        letter-spacing: 10px;
+        border-radius: 3px;
+    }
+}
+
+.author{
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 800px;
+}
